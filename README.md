@@ -27,7 +27,7 @@ Desktop View
 
 Mobile View
 ![Mobile Screenshot](./mobile1.png)
-![Mobile Screenshot](./smobile2.png)
+![Mobile Screenshot](./mobile2.png)
 🛠️ Tech Stack
 
 React – Frontend library for building user interfaces.
