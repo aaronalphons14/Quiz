@@ -1,74 +1,39 @@
-# React + TypeScript + Vite
+🎯 Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+A responsive, interactive quiz application that allows users to test their knowledge with multiple-choice questions. Built with React, TypeScript, and Vite, this app provides a smooth user experience across both desktop and mobile devices.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🌟 Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+✅ Responsive Design – Works perfectly on desktops, tablets, and mobiles.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+✅ Dynamic Quiz Questions – Questions can be updated easily.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+✅ Instant Feedback – Users get immediate scoring results after completing the quiz.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+✅ Clean & Intuitive UI – Focus on a simple and engaging user experience.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+✅ Easy Navigation – Intro page leads to main quiz seamlessly.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-"# Quiz" 
+🖥️ Screenshots
+
+Desktop View
+![Desktop Screenshot](./desktop1.png)
+![Desktop Screenshot](./desktop2.png)
+
+Mobile View
+![Mobile Screenshot](./mobile1.png)
+![Mobile Screenshot](./smobile2.png)
+🛠️ Tech Stack
+
+React – Frontend library for building user interfaces.
+
+TypeScript – Adds type safety and improves code quality.
+
+Vite – Fast development server and build tool.
+
+Tailwind CSS – Utility-first styling framework for clean design.
