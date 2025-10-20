@@ -41,9 +41,9 @@ Vite – Fast development server and build tool.
 
 Tailwind CSS – Utility-first styling framework for clean design.
 
-How the Quiz App Works
+##How the Quiz App Works
 
-Intro Page
+#Intro Page
 
 When the user opens the app, they land on the intro page.
 
@@ -51,7 +51,7 @@ The page displays the logo and a “Enter” button.
 
 Clicking Enter takes the user to the main quiz page (can be linked to your main Quiz repository or component).
 
-Quiz Page
+#Quiz Page
 
 The user sees 10 general knowledge questions (or as configured).
 
@@ -59,31 +59,31 @@ Each question has multiple-choice answers.
 
 Only one option can be selected per question.
 
-Answer Selection
+#Answer Selection
 
 When the user selects an answer, it is recorded locally.
 
 The app can provide instant feedback (correct/wrong) if implemented.
 
-Navigation
+#Navigation
 
 Users can navigate question by question or all at once depending on design.
 
 The app keeps track of which question is active.
 
-Scoring
+#Scoring
 
 After the user finishes all questions, the app calculates the score.
 
 The result summary shows how many answers were correct, providing instant feedback.
 
-Responsive Design
+#Responsive Design
 
 The app layout adapts to desktop and mobile screens.
 
 Screenshots show how it looks on different devices.
 
-Tech Behind It
+#Tech Behind It
 
 React manages the UI and interactive elements.
 
